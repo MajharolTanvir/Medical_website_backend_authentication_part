@@ -1,0 +1,28 @@
+{
+  "name": "medical_website_auth_backend",
+  "version": "1.0.0",
+  "description": "This is a Medical website where user can booked doctors, find blood donors and request to donate blood.",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Medical_website",
+    "Doctors_portal",
+    "Doctors_website."
+  ],
+  "author": "Majharul Tanvir",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3"
+  }
+}
